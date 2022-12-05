@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Mykkolla.github.io/rsschool-cv/cv
