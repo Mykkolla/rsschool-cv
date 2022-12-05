@@ -20,7 +20,7 @@ A professional specialist in the field of energy and engineering with extensive 
 4. Git
 
 ### Code Example
-[https://mykkolla.github.io/goit-markup-hw-08/][WedStudio]
+[WedStudio](https://mykkolla.github.io/goit-markup-hw-08/)
 
 function sum(a, b) {
   return a + b;
@@ -41,8 +41,8 @@ Two years of work in the field of fire safety.
 University: Mykolaiv Universety of shipbilding, Electrical Engineering
 
 ##### Courses
-[https://www.freecodecamp.org/learn/][FreeCodeCamp]
-[https://w3schoolsua.github.io/index.html#gsc.tab=0][W3School]
+[FreeCodeCamp](https://www.freecodecamp.org/learn/)
+[W3School](https://w3schoolsua.github.io/index.html#gsc.tab=0)
 
 
 
