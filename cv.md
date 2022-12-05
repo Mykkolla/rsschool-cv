@@ -44,8 +44,9 @@ University: Mykolaiv Universety of shipbilding, Electrical Engineering
 
 [1]: https://www.freecodecamp.org/learn/
 
-[FreeCodeCamp](https://www.freecodecamp.org/learn/ "Необязательная подсказка")
-[W3School](https://w3schoolsua.github.io/index.html#gsc.tab=0)
+[FreeCodeCamp](https://www.freecodecamp.org/learn/ "freecodecamp")
+-------------------------------------------
+[W3School](https://w3schoolsua.github.io/index.html#gsc.tab=0 "w3school")
 
 
 
