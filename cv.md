@@ -18,8 +18,9 @@ A professional specialist in the field of energy and engineering with extensive 
 2. CSS/SASS
 3. JavaScript (Basic)
 4. Git
-### Code Example
 
+### Code Example
+[https://mykkolla.github.io/goit-markup-hw-08/][WedStudio]
 
 function sum(a, b) {
   return a + b;
