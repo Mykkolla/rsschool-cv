@@ -11,8 +11,7 @@
 ## About Me
 
 
-I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
-I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+A professional specialist in the field of energy and engineering with extensive experience in solving emerging problems at different levels. Strong interpersonal skills proven by several projects. A creative problem solver who created several manufacturing improvement programs.I have good interpersonal skills, am an excellent team worker and very willing to learn and develop new skills.
 
 ### Skills
 1. HTML
