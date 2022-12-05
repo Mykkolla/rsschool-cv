@@ -31,17 +31,20 @@ alert( result );
 
 #### Experience
 
+More than 10 years of work in the field of electrical engineering.
+Two years of work in the field of fire safety.
+
 
 #### Education
 
 
-University: Belarusian National Technical University, Civil Engineering major
+University: Mykolaiv Universety of shipbilding, Electrical Engineering
 
-##### Courses:
-CS50 lectures
-FreeCodeCamp
-HTML Academy
+##### Courses
+[https://www.freecodecamp.org/learn/][FreeCodeCamp]
+[https://w3schoolsua.github.io/index.html#gsc.tab=0][W3School]
+
 
 
 ##### English
-A2 (I had been practicing English, when I worked in the USA as an exchange student)
+B1 (Sufficient level for communication)
