@@ -25,7 +25,6 @@ A professional specialist in the field of energy and engineering with extensive 
 function sum(a, b) {
   return a + b;
 }
-
 let result = sum(1, 2);
 alert( result );
 
