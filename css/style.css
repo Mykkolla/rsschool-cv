@@ -38,7 +38,11 @@ line-height: calc(11/8);
     display: flex;
   justify-content: space-around;
 }
-
+@media screen and (min-width: 0px) and (max-width: 468px) {
+    .main {
+        display: block;
+        
+}}
 .section {
     padding: 15px;
        
@@ -61,7 +65,25 @@ img {
     display: block;
     max-width: 100%;
 }
- 
+.contaner {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+@media screen and (min-width: 0px) and (max-width: 468px) {
+    .contaner {
+        display: block;
+        width: 600px;
+        justify-content: center;
+}}
+@media screen and (min-width: 467px) and (max-width: 769px) {
+    .contaner {
+        justify-content: space-evenly;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+}}
 /* __________Header___________________________ */
 
 .header {
@@ -76,7 +98,10 @@ img {
     align-items:center;
     justify-content: space-evenly;
 }
-
+@media screen and (min-width: 0px) and (max-width: 468px) {
+    .header {
+        display: block;
+}}
 .header__name {
     color:  #333333;
     font-family: 'Source Sans Pro';
@@ -87,13 +112,26 @@ line-height: calc(48/38);
 display: block;
 
 margin-top: 30px;
+
+}
+ @media screen and (min-width: 0px) and (max-width: 767px) {
+    .header__name {font-weight: 400;
+        color:  #333333;
+font-size: 16px;
+line-height: calc(22/18);
+margin: 0;
+}
+
 }
 .header__proffe {
 font-size: 14px;
 line-height: calc(19/14);
 text-align: center;
 }
-
+@media screen and (min-width: 0px) and (max-width: 468px) {
+    .header__proffe {
+        text-align:start;
+}}
 .anchor__page-list {
    
 font-weight: 400;
@@ -127,25 +165,38 @@ line-height: calc(22/16);
     line-height: calc(14/10);
       color: var(---color-right-main);
        margin-bottom: 15px;
-    transition: color 950ms cubic-bezier(0.1, -0.6, 0.2, 0);
+    transition: color 250ms cubic-bezier(0.1, -0.6, 0.2, 0);
 }
 .left__adressa-cont:focus, .left__adressa-cont:hover {
     color: var(--text-color-right-h1);
     cursor: pointer;
 }
 
+
 .left__adressa-cont:not(:last-child) {
     padding-bottom: 5px;
 }
-
+.left__adressa-mail, .left__adressa-git {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+      color: var(---color-right-main);
+       margin-bottom: 15px;
+    transition: color 250ms cubic-bezier(0.1, -0.6, 0.2, 0);
+}
+.left__adressa-mail:focus, .left__adressa-mail:hover {
+    color: var(--text-color-right-h1);
+    cursor: pointer;
+}
+.left__adressa-git:focus, .left__adressa-git:hover {
+    color: var(--text-color-right-h1);
+    cursor: pointer;
+}
 
 .left__img {
     border-radius: 50%;
 }
-.contaner {
-    width: 600px;
-    display: flex;
-}
+
 .left__about {
     margin-bottom: 15px;
 }
@@ -202,4 +253,99 @@ line-height: calc(22/16);
 /* -----------------------right */
 .section.right {
     width: calc(100% - 250px);
+}
+
+.code__title {
+    font-weight: 700;
+font-size: 16px;
+line-height: calc(22/16);
+    color: black;
+    margin-bottom: 5px;
+}
+
+.code__examp {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+    
+    color: var(--color-text-h2);
+}
+.code__examp:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+.code__examp-wedstudio {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+    
+    
+    color: var(--color-text-h2);
+    transition: color 250ms cubic-bezier(0.1, -0.6, 0.2, 0);
+}
+.code__examp-wedstudio:hover, .code__examp-wedstudio:focus {
+    cursor: pointer;
+    color: var(--text-color-right-h1);
+}
+.code__examp-jav {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+     
+    color: var(--color-text-h2);
+    
+}
+.code__list {
+    margin-bottom: 40px;
+}
+
+.expir__title {
+    font-weight: 700;
+font-size: 16px;
+line-height: calc(22/16);
+    color: black;
+    margin-bottom: 5px;
+}
+.expir__text {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+    color: var(--color-text-h2);
+
+    margin-bottom: 40px;
+}
+
+.educa__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(22/16);
+        color: black;
+        margin-bottom: 5px;
+    }
+.educa__univers {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+    color: var(--color-text-h2);
+
+    margin-bottom: 15px;
+}
+.courses__title {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(22/16);
+        color: black;
+        margin-bottom: 5px;
+}
+.courses__name-title {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: calc(14/10);
+    color: var(--color-text-h2);
+    transition: color 250ms cubic-bezier(0.1, -0.6, 0.2, 0);
+
+}
+.courses__name-title:hover, .courses__name-title:focus {
+    cursor: pointer;
+    color: var(--text-color-right-h1);
 }
