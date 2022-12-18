@@ -21,6 +21,7 @@
 }
 html {
     scroll-behavior: smooth;
+    height: 100%;
 }
 
  body {
@@ -31,10 +32,17 @@ font-size: 8px;
 line-height: calc(11/8);
     letter-spacing: 0.03em;
     margin: 0;
-          
+
+    display: flex;      
+  flex-direction: column;  
+       
 }
+@media screen and (min-width: 468px) {
+    .body {
+        height: 100%; 
+}}
 .main {
-   
+    flex: 1 0 auto;
     display: flex;
   justify-content: space-around;
 }
@@ -68,22 +76,29 @@ img {
 .contaner {
     width: 600px;
     display: flex;
-    align-items: center;
-    justify-content: space-evenly;
+    margin-left: auto;
+    margin-right: auto;
+    /* align-items: center; */
+    
 }
 @media screen and (min-width: 0px) and (max-width: 468px) {
     .contaner {
         display: block;
-        width: 600px;
+        width: 400px;
         justify-content: center;
 }}
 @media screen and (min-width: 467px) and (max-width: 769px) {
     .contaner {
-        justify-content: space-evenly;
+        
         justify-content: center;
-        align-items: center;
-        width: 400px;
+        /* align-items: center; */
+        width: 600px;
 }}
+.hero {
+    justify-content: space-evenly;
+    align-items: center;
+}
+
 /* __________Header___________________________ */
 
 .header {
@@ -348,4 +363,54 @@ line-height: calc(22/16);
 .courses__name-title:hover, .courses__name-title:focus {
     cursor: pointer;
     color: var(--text-color-right-h1);
+}
+
+.footer {
+    flex-shrink: 0;
+    background-color: var(--text-color-right-h1);
+    
+  }
+  .foot {
+    padding: 15px;
+   
+    display: flex;
+    
+  }
+
+.footer__list {
+    display: flex;
+}
+@media screen and (min-width: 0px) and (max-width: 468px) {
+    .footer__list, .foot {
+        display: block;
+        
+}}
+    .footer__href {
+        color: black;
+
+     transition: color 250ms cubic-bezier(0.1, -0.6, 0.2, 0), 
+    border 250ms cubic-bezier(0.1, -0.6, 0.2, 0), cursor 250ms cubic-bezier(0.1, -0.6, 0.2, 0) ;
+}
+
+.footer__icon-rss {
+  fill: currentColor; 
+  border: 1px solid currentColor;
+  border-radius: 4px; 
+}
+
+.footer__href:hover, .footer__href:focus {
+    cursor: pointer;
+    color: var(--main-color-text-h1);
+    
+}
+
+.footer__list-item:not(:last-child) {
+    padding-right: 20px;
+}
+.footer__ear {
+    text-align: center;
+    font-weight: 200;
+    font-size: 8px;
+    line-height: calc(12/8);
+    color: var(--color-text-h2);
 }
